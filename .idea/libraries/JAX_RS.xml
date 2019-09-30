@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="JAX-RS" type="JAX-RS">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/jar_files (1)/javax.annotation-api-1.2.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jar_files (1)/javax.inject-2.5.0-b42.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jar_files (1)/javax.ws.rs-api-2.1.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jar_files (1)/jersey-client-2.26.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jar_files (1)/jersey-common-2.26.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jar_files (1)/jersey-media-jaxb-2.26.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jar_files (1)/jersey-server-2.26.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jar_files (1)/osgi-resource-locator-1.0.1.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jar_files (1)/validation-api-1.1.0.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
