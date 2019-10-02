@@ -37,7 +37,7 @@ Les diagrammes d'utilisation sont ici :
 ## Les itérations 
 Nous avons défini en gros dans notre cahier des charges (que nous tenons à préciser est une version courte d'un réel cahier des charges) que nous allons développer une version de base et une autre avec covoiturage.  
 
-Afin de traduire cela en travail scrum, nous avons rédigé 24 User Stories (ici)[UserStories.md].
+Afin de traduire cela en travail scrum, nous avons rédigé 24 User Storie [ici](UserStories.md).
 
 Suite à cela, nous les avons répartis en fonction d'importance. Nous avons conclu avoir 5 itérations dont 4 livrables.  
 
