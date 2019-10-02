@@ -11,5 +11,3 @@ Ce cahier contient la totalité de la spécification du projet.
 ## Diagrammes
 Les diagrammes d'utilisation sont ici : 
 Les diagrammes de base de données sont ici : 
-
-
