@@ -44,24 +44,24 @@ Suite à cela, nous les avons répartis en fonction d'importance. Nous avons con
 ### Itération 1 : la gestion d'utilisateurs
 Cette itération est non livrable.  
 
-Elle consiste des stories 1, 14 et 21.
+[Les détails sont dans ce fichier](iterations/1.md).
 
 ### Itération 2 : le coeur de l'application 
 Cette itération est livrable. Elle consiste des fonctionnalités de base permettant le minimum d'une application similaire à Uber.
 
-Elle englobe les stories 2, 3, 5, 15, 17, 7, 12 et 4.
+[Les détails sont dans ce fichier](iterations/2.md).
 
 ### Itération 3 : les statistiques, c'est important !
 Cette itération est livrable. Elle consiste de fonctionnalités permettant aux utilisateurs de consulter leurs trajets complétés.  
 
-Les détails sont dans les stories 10, 20, 22, 23 et 24.
+[Les détails sont dans ce fichier](iterations/3.md).
 
 ### Itération 4 : le covoiturage
 Cette itération est livrable. Elle ajoute la deuxième fonctionnalité principale dans notre cahier des charges.  
 
-Les détails sont dans les stories 8, 11, 18 et 19.
+[Les détails sont dans ce fichier](iterations/4.md).
 
 ### Itération 5 : plus de contrôle
 Cette itération est livrable. Elle ajoute plus de contrôle pour les utilisateurs difficles à satisfaire, comme par exemple un client qui souhaite refuser un certain conducteur.  
 
-Les détails sont dans les stories 6, 13, 16 et 9.  
+[Les détails sont dans ce fichier](iterations/5.md).  
