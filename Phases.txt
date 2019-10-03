@@ -1,0 +1,20 @@
+Phase 1: écrire cahier des charges pour idée générale sur le projet.
+
+Phase 2: dessiner diagrammes d'utilistation et de base de données.
+
+Phase 3: écrire les user stories, afin de définir en détails les fonctionnalités à fournir.
+
+Phase 4: dessiner les sketchs de l'application en fonction des stories.
+
+Phase 5: rechercher en détails les points technique de chaque story: que faut-il utiliser, et comment ?
+
+Phase 6: pour chaque itération, répartir les tâches dans l'équipe.
+
+Phase 7: chaque développeur teste les fonctionnalités développées par l'autre (normalement il faut un équipe de contrôle de qualité, mais nous ne sommes que deux !)
+
+Phase 8: nous agréons de compléter une itération avec toutes les user stories complétées, ou bien quelques unes annulées ou quelques unes reportées pour la flexibilité.
+
+Phase 9: nous continuous ainsi de suite avec chaque itération, et à la fin de chaque itération nous recherchons si jamais on de nouvelles idées pour ajouter de nouvelles stories pour des versions futures.
+
+
+

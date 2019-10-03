@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>110</x>
+      <y>80</y>
+      <w>210</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>Client
+--
+gender: enum¹
+first_name: varchar
+last_name: varchar
+username: varchar
+password: varchar
+phone_number: varchar
+created_at: timestamp
+updated_at: timestamp</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>490</x>
+      <y>10</y>
+      <w>220</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>Driver
+--
+gender: enum¹
+first_name: varchar
+last_name: varchar
+username: varchar
+password: varchar
+phone_number: varchar
+car_model: varchar
+car_registration_number: varchar
+created_at: timestamp
+updated_at: timestamp</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>490</x>
+      <y>320</y>
+      <w>240</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>Trip
+--
+distance: decimal²
+started_at: timestamp
+ended_at: timestamp
+price: decimal³
+estimated_time: decimal⁴
+start_location: varchar⁵
+end_location: varchar⁵
+start_location_search_term: varchar⁶
+end_location_search_term: varchar⁶
+created_at: timestamp
+updated_at: timestamp</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>120</x>
+      <y>510</y>
+      <w>220</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Client_Trip
+--
+payment_percentage: decimal
+created_at: timestamp
+updated_at: timestamp</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>210</x>
+      <y>270</y>
+      <w>300</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=n
+m2=n</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;130.0;280.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>210</x>
+      <y>390</y>
+      <w>30</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;120.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>590</x>
+      <y>220</y>
+      <w>30</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=n</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>740</x>
+      <y>190</y>
+      <w>300</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>¹gender enum: ['female', 'male']
+²distance: en kilomètres
+³price: en livres libanaises
+⁴estimated_time: en minutes
+⁵start_location: en coordonnées
+⁶start_location_search_term: peut être null
+quand l'utilisateur n'a pas saisi de recherche
+mais a plutôt indiqué sa position sur la carte.
+
+
+
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
