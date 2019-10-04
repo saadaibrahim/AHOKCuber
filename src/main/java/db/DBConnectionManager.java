@@ -1,28 +1,51 @@
-
 package db;
 
-import java.sql.Connection;
+import org.hibernate.HibernateException;
+import org.hibernate.Metamodel;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+import org.hibernate.query.Query;
+
+import javax.persistence.metamodel.EntityType;
 
 public class DBConnectionManager {
+    private static final SessionFactory ourSessionFactory;
 
-    private String dbURL;
-    private String user;
-    private String password;
-    private Connection con;
+    static {
+        try {
+            Configuration configuration = new Configuration();
+            configuration.configure();
 
-    public DBConnectionManager(String url, String u, String p){
-        this.dbURL=url;
-        this.user=u;
-        this.password=p;
-        //create db connection now
-
+            ourSessionFactory = configuration.buildSessionFactory();
+        } catch (Throwable ex) {
+            throw new ExceptionInInitializerError(ex);
+        }
     }
 
-    public Connection getConnection(){
-        return this.con;
+    private static Session getSession() throws HibernateException {
+        return ourSessionFactory.openSession();
+    }
+
+    public DBConnectionManager(){
+        final Session session = getSession();
+        try {
+            System.out.println("querying all the managed entities...");
+            final Metamodel metamodel = session.getSessionFactory().getMetamodel();
+            for (EntityType<?> entityType : metamodel.getEntities()) {
+                final String entityName = entityType.getName();
+                final Query query = session.createQuery("from " + entityName);
+                System.out.println("executing: " + query.getQueryString());
+                for (Object o : query.list()) {
+                    System.out.println("  " + o);
+                }
+            }
+        } finally {
+            session.close();
+        }
     }
 
     public void closeConnection(){
-        //close DB connection here
+        getSession().close();
     }
 }
