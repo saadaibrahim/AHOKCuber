@@ -1,13 +1,19 @@
 package models;
 
 import javax.persistence.*;
+import java.io.Serializable;
 
 @Entity
-public class Client {
+@Table(name = "client")
+public class Client implements Serializable {
     private String id;
 
+    public Client() {
+
+    }
+
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     public String getId() {
         return id;
     }
