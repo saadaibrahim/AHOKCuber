@@ -18,7 +18,17 @@
         <servlet-name>jersey-servlet</servlet-name>
         <url-pattern>/rest/*</url-pattern>
     </servlet-mapping>
+
     <listener>
-        <listener-class></listener-class>
+        <listener-class>listeners.AppContextListener</listener-class>
+    </listener>
+    <listener>
+        <listener-class>listeners.AppContextAttributeListener</listener-class>
+    </listener>
+    <listener>
+        <listener-class>listeners.MySessionListener</listener-class>
+    </listener>
+    <listener>
+        <listener-class>listeners.MyServletRequestListener</listener-class>
     </listener>
 </web-app>
