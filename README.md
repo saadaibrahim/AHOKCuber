@@ -14,7 +14,7 @@ Les diagrammes d'utilisation sont ici :
 * [Diagramme de recherche de nouveau trajet](https://github.com/projetc22019/AHOKCuber/blob/master/documents/diagramme%20de%20recherche%20-%20nouveau%20trajet.png)
 * [Diagramme de recherche de trajet existant (covoiturage)](https://github.com/projetc22019/AHOKCuber/blob/master/documents/diagramme%20de%20recherche%20-%20partage%20de%20trajet.png)
 * [Diagramme de base de données](https://github.com/projetc22019/AHOKCuber/blob/master/documents/database.png)
-* [Document d'écrans et de composants de l'application](documents/ecrans-composants.xlsx)  
+* [Document d'écrans et de composants de l'application](documents/ecrans-composants.pdf)  
 
 ## Étapes de travail
 - [x] Phase 1: écrire cahier des charges pour idée générale sur le projet. 
