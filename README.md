@@ -16,23 +16,25 @@ Les diagrammes d'utilisation sont ici :
 * [Diagramme de base de données](https://github.com/projetc22019/AHOKCuber/blob/master/documents/database.png)
 
 ## Étapes de travail
-- [x] Phase 1: écrire cahier des charges pour idée générale sur le projet.--
+- [x] Phase 1: écrire cahier des charges pour idée générale sur le projet. 
 
 - [x] Phase 2: dessiner diagrammes d'utilistation et de base de données.
 
 - [x] Phase 3: écrire les user stories, afin de définir en détails les fonctionnalités à fournir.
 
-- [ ] Phase 4: dessiner les sketchs de l'application en fonction des stories.
+- [ ] Phase 4: dessiner les sketchs du premier livrable de l'application.   
 
 - [ ] Phase 5: rechercher en détails les points techniques de chaque story: que faut-il utiliser, et comment (par exemple, intégrer OAuth pour que les utilisateurs puissent créer des comptes) ?
 
 - [ ] Phase 6: pour chaque itération, répartir les tâches dans l'équipe.
 
-- [ ] Phase 7: chaque développeur teste les fonctionnalités développées par l'autre (normalement il faut un équipe de contrôle de qualité, mais nous ne sommes que deux !)
+- [ ] Phase 7: pour chaque itération, créer les sketchs et les confirmer par l'équipe (sauf premier livrable qui est déjà fait en sketch).     
 
-- [ ] Phase 8: nous agréons de compléter une itération avec toutes les user stories complétées, ou bien quelques unes annulées ou quelques unes reportées pour la flexibilité.
+- [ ] Phase 8: chaque développeur teste les fonctionnalités développées par l'autre (normalement il faut un équipe de contrôle de qualité, mais nous ne sommes que deux !)
 
-- [ ] Phase 9: nous continuous ainsi de suite avec chaque itération, et à la fin de chaque itération nous recherchons si jamais on de nouvelles idées pour ajouter de nouvelles stories pour des versions futures.
+- [ ] Phase 9: nous agréons de compléter une itération avec toutes les user stories complétées, ou bien quelques unes annulées ou quelques unes reportées pour la flexibilité.
+
+- [ ] Phase 10: nous continuous ainsi de suite avec chaque itération, et à la fin de chaque itération nous recherchons si jamais on de nouvelles idées pour ajouter de nouvelles stories pour des versions futures.
 
 ## Les itérations 
 Nous avons défini en gros dans notre cahier des charges (que nous tenons à préciser est une version courte d'un réel cahier des charges) que nous allons développer une version de base et une autre avec covoiturage.  
