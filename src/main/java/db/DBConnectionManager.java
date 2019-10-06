@@ -23,7 +23,7 @@ public class DBConnectionManager {
         }
     }
 
-    private static Session getSession() throws HibernateException {
+    public static Session getSession() throws HibernateException {
         return ourSessionFactory.openSession();
     }
 
@@ -36,16 +36,13 @@ public class DBConnectionManager {
                 final String entityName = entityType.getName();
                 final Query query = session.createQuery("from " + entityName);
                 System.out.println("executing: " + query.getQueryString());
-                for (Object o : query.list()) {
-                    System.out.println("  " + o);
-                }
             }
         } finally {
             session.close();
         }
     }
 
-    public void closeConnection(){
+    public static void closeConnection(){
         getSession().close();
     }
 }
