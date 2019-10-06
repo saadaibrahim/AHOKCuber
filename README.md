@@ -16,6 +16,9 @@ Les diagrammes d'utilisation sont ici :
 * [Diagramme de base de données](https://github.com/projetc22019/AHOKCuber/blob/master/documents/database.png)
 * [Document d'écrans et de composants de l'application](documents/ecrans-composants.pdf)  
 
+## [Application Wireframes](https://github.com/projetc22019/AHOKCuber/tree/master/documents/sketching)
+* [Pages d'authentification](https://github.com/projetc22019/AHOKCuber/tree/master/documents/sketching/authentication)
+
 ## Étapes de travail
 - [x] Phase 1: écrire cahier des charges pour idée générale sur le projet. 
 
