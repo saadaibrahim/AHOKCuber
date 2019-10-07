@@ -9,15 +9,19 @@ Un mini cahier des charges est inclu en format PDF ici : https://github.com/proj
 Ce cahier contient la totalité de la spécification du projet.    
 Il est recommandé de lire le cahier en entier avant de continuer !  
 
-## [Diagrammes et documents](https://github.com/projetc22019/AHOKCuber/tree/master/documents)
+## [Diagrammes et documents](documents)
 Les diagrammes d'utilisation sont ici : 
-* [Diagramme de recherche de nouveau trajet](https://github.com/projetc22019/AHOKCuber/blob/master/documents/diagramme%20de%20recherche%20-%20nouveau%20trajet.png)
-* [Diagramme de recherche de trajet existant (covoiturage)](https://github.com/projetc22019/AHOKCuber/blob/master/documents/diagramme%20de%20recherche%20-%20partage%20de%20trajet.png)
-* [Diagramme de base de données](https://github.com/projetc22019/AHOKCuber/blob/master/documents/database.png)
+* [Diagramme de recherche de nouveau trajet](documents/diagramme%20de%20recherche%20-%20nouveau%20trajet.png)
+* [Diagramme de recherche de trajet existant (covoiturage)](documents/diagramme%20de%20recherche%20-%20partage%20de%20trajet.png)
+* [Diagramme de base de données](documents/database.png)
 * [Document d'écrans et de composants de l'application](documents/ecrans-composants.pdf)  
 
-## [Application Wireframes](https://github.com/projetc22019/AHOKCuber/tree/master/documents/sketching)
-* [Pages d'authentification](https://github.com/projetc22019/AHOKCuber/tree/master/documents/sketching/authentication)
+## [Design et Wireframes](documents/sketching)
+Nous utilions Mockflow pour créer les sketchs de notre application. Nous avons décidé d'implémenter Bootstrap pour sa facilité et son design ergonomique. Nous mettons à jour le design régulièrement.  
+
+Mockflow permet 3 pages sous sa version gratuite. Nous avons acheté la version étudiant pour 9$ / mois.  
+
+* [Voir progrès actuel](documents/wireframes.pdf)
 
 ## Étapes de travail
 - [x] Phase 1: écrire cahier des charges pour idée générale sur le projet. 
@@ -26,7 +30,7 @@ Les diagrammes d'utilisation sont ici :
 
 - [x] Phase 3: écrire les user stories, afin de définir en détails les fonctionnalités à fournir.
 
-- [ ] Phase 4: dessiner les sketchs du premier livrable de l'application. [Progrès actuel](documents/wireframes.pdf)
+- [ ] Phase 4: dessiner les sketchs du premier livrable de l'application. [Voir progrès actuel](documents/wireframes.pdf)
 
 - [ ] Phase 5: rechercher en détails les points techniques de chaque story: que faut-il utiliser, et comment (par exemple, intégrer OAuth pour que les utilisateurs puissent créer des comptes) ? Que faire niveau serveur ?   
 
