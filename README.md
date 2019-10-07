@@ -23,9 +23,9 @@ Les diagrammes d'utilisation sont ici :
 
 - [x] Phase 3: écrire les user stories, afin de définir en détails les fonctionnalités à fournir.
 
-- [ ] Phase 4: dessiner les sketchs du premier livrable de l'application.   
+- [ ] Phase 4: dessiner les sketchs du premier livrable de l'application. [Progrès actuel](documents/wireframes.pdf)
 
-- [ ] Phase 5: rechercher en détails les points techniques de chaque story: que faut-il utiliser, et comment (par exemple, intégrer OAuth pour que les utilisateurs puissent créer des comptes) ?
+- [ ] Phase 5: rechercher en détails les points techniques de chaque story: que faut-il utiliser, et comment (par exemple, intégrer OAuth pour que les utilisateurs puissent créer des comptes) ? Que faire niveau serveur ?   
 
 - [ ] Phase 6: pour chaque itération, répartir les tâches dans l'équipe.
 
