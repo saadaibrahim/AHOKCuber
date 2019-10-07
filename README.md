@@ -9,12 +9,15 @@ Un mini cahier des charges est inclu en format PDF ici : https://github.com/proj
 Ce cahier contient la totalité de la spécification du projet.    
 Il est recommandé de lire le cahier en entier avant de continuer !  
 
-## Diagrammes et documents
+## [Diagrammes et documents](https://github.com/projetc22019/AHOKCuber/tree/master/documents)
 Les diagrammes d'utilisation sont ici : 
 * [Diagramme de recherche de nouveau trajet](https://github.com/projetc22019/AHOKCuber/blob/master/documents/diagramme%20de%20recherche%20-%20nouveau%20trajet.png)
 * [Diagramme de recherche de trajet existant (covoiturage)](https://github.com/projetc22019/AHOKCuber/blob/master/documents/diagramme%20de%20recherche%20-%20partage%20de%20trajet.png)
 * [Diagramme de base de données](https://github.com/projetc22019/AHOKCuber/blob/master/documents/database.png)
 * [Document d'écrans et de composants de l'application](documents/ecrans-composants.pdf)  
+
+## [Application Wireframes](https://github.com/projetc22019/AHOKCuber/tree/master/documents/sketching)
+* [Pages d'authentification](https://github.com/projetc22019/AHOKCuber/tree/master/documents/sketching/authentication)
 
 ## Étapes de travail
 - [x] Phase 1: écrire cahier des charges pour idée générale sur le projet. 
