@@ -19,8 +19,6 @@ Les diagrammes d'utilisation sont ici :
 ## [Design et Wireframes](documents/sketching)
 Nous utilions Mockflow pour créer les sketchs de notre application. Nous avons décidé d'implémenter Bootstrap pour sa facilité et son design ergonomique. Nous mettons à jour le design régulièrement.  
 
-Mockflow permet 3 pages sous sa version gratuite. Nous avons acheté la version étudiant pour 9$ / mois.  
-
 * [Voir progrès actuel](documents/wireframes.pdf)
 
 ## Étapes de travail
