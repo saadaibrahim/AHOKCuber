@@ -19,7 +19,7 @@ Les diagrammes d'utilisation sont ici :
 ## [Design et Wireframes](documents/sketching)
 Nous utilions Mockflow pour créer les sketchs de notre application. Nous avons décidé d'implémenter Bootstrap pour sa facilité et son design ergonomique. Nous mettons à jour le design régulièrement.  
 
-* [Voir progrès actuel](documents/wireframes.pdf)
+* [Voir design final](documents/wireframes.pdf)
 
 ## Étapes de travail
 - [x] Phase 1: écrire cahier des charges pour idée générale sur le projet. 
@@ -28,9 +28,9 @@ Nous utilions Mockflow pour créer les sketchs de notre application. Nous avons 
 
 - [x] Phase 3: écrire les user stories, afin de définir en détails les fonctionnalités à fournir.
 
-- [ ] Phase 4: dessiner les sketchs du premier livrable de l'application. [Voir progrès actuel](documents/wireframes.pdf)
+- [x] Phase 4: dessiner les sketchs du premier livrable de l'application. [Voir design final](documents/wireframes.pdf)
 
-- [ ] Phase 5: rechercher en détails les points techniques de chaque story: que faut-il utiliser, et comment (par exemple, intégrer OAuth pour que les utilisateurs puissent créer des comptes) ? Que faire niveau serveur ?   
+- [ ] Phase 5: rechercher en détails les points techniques de chaque story: que faut-il utiliser, et comment (par exemple, intégrer OAuth pour que les utilisateurs puissent créer des comptes) ? Que faire niveau serveur ?  
 
 - [ ] Phase 6: pour chaque itération, répartir les tâches dans l'équipe.
 
