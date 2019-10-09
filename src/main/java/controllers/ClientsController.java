@@ -20,7 +20,7 @@ public class ClientsController {
     @Produces("application/json")
     public Response all() {
         // Return some cliched textual content
-        return Response.ok("clients list goes here", MediaType.APPLICATION_JSON).build();
+        return Response.ok(System.getProperty("user.dir"), MediaType.APPLICATION_JSON).build();
     }
 
     @GET

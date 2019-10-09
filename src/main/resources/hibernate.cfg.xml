@@ -10,7 +10,8 @@
         <!-- Database Connection Settings -->
         <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
         <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/cuber</property>
-        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.username">osman</property>
+        <property name="hibernate.connection.password">password</property>
 
         <!-- DB schema will be updated if needed -->
         <property name="hibernate.show_sql">true</property>
