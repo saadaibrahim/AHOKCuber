@@ -1,5 +1,6 @@
 package db;
 
+import models.Client;
 import org.hibernate.HibernateException;
 import org.hibernate.Metamodel;
 import org.hibernate.Session;
@@ -44,5 +45,18 @@ public class DBConnectionManager {
 
     public static void closeConnection(){
         getSession().close();
+    }
+
+    public static void save(Object var1) {
+        // Return some cliched textual content
+        Session session = DBConnectionManager.getSession();
+        session.beginTransaction();
+
+        //Save the client in database
+        session.save(var1);
+
+        //Commit the transaction
+        session.getTransaction().commit();
+        DBConnectionManager.closeConnection();
     }
 }

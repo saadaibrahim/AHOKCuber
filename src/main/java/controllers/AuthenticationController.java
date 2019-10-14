@@ -3,20 +3,20 @@ package controllers;
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.exceptions.JWTCreationException;
+import db.DBConnectionManager;
+import models.Client;
 import utils.Config;
 
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
-import javax.ws.rs.Produces;
+import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
 @Path("/api/auth")
 public class AuthenticationController {
-    @GET
+    @POST
     @Path("/token")
     @Produces("application/json")
-    public Response all() {
+    public Response token() {
         String token = "";
         try {
             Algorithm algorithm = Algorithm.HMAC256(Config.getProperty("AUTH_PASSPHRASE"));
@@ -27,5 +27,15 @@ public class AuthenticationController {
             //Invalid Signing configuration / Couldn't convert Claims.
         }
         return Response.ok(token, MediaType.APPLICATION_JSON).build();
+    }
+
+    @POST
+    @Path("/register")
+    @Consumes("application/json")
+    @Produces("application/json")
+    public Response register(Client client) {
+        DBConnectionManager.save(client);
+
+        return Response.ok(client.toString(), MediaType.APPLICATION_JSON).build();
     }
 }
