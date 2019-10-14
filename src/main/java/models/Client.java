@@ -2,6 +2,7 @@ package models;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.Date;
 import java.util.UUID;
 
 enum Gender {
@@ -20,6 +21,12 @@ public class Client implements Serializable {
 
     private String password;
     private Gender gender;
+
+    @Column(columnDefinition = "DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP")
+    private Date created_at;
+
+    @Column(columnDefinition = "DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP")
+    private Date updated_at;
 
     private enum Gender {
         MALE (0){
@@ -46,8 +53,16 @@ public class Client implements Serializable {
         }
     }
 
-    public Client() {
+    @PrePersist
+    private void preInsert () {
         this.id = UUID.randomUUID().toString();
+        this.created_at = new Date();
+        this.updated_at = new Date();
+    }
+
+    @PreUpdate
+    private void preUpdate () {
+        this.updated_at = new Date();
     }
 
     @Override
@@ -60,6 +75,8 @@ public class Client implements Serializable {
                 ", email='" + email + '\'' +
                 ", password='" + password + '\'' +
                 ", gender=" + gender +
+                ", created_at=" + created_at +
+                ", updated_at=" + updated_at +
                 '}';
     }
 
@@ -119,5 +136,21 @@ public class Client implements Serializable {
 
     public void setGender(Gender gender) {
         this.gender = gender;
+    }
+
+    public Date getCreated_at() {
+        return created_at;
+    }
+
+    public void setCreated_at(Date created_at) {
+        this.created_at = created_at;
+    }
+
+    public Date getUpdated_at() {
+        return updated_at;
+    }
+
+    public void setUpdated_at(Date updated_at) {
+        this.updated_at = updated_at;
     }
 }
